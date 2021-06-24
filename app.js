@@ -47,11 +47,11 @@ app.use(function(err, req, res, next) {
 });
 
 
-mongoose.connect('mongodb+srv://dbUser:user123@assignment.oaubb.mongodb.net/terminal?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://dbUser:user123@cluster0.w3vf4.mongodb.net/terminal?retryWrites=true&w=majority',
 { 
   useNewUrlParser: true,
   useUnifiedTopology: true 
-  mongodb+srv://dbUser:user123@cluster0.w3vf4.mongodb.net/terminal?retryWrites=true&w=majority,
+ 
   
 }
 ).then(()=>{
